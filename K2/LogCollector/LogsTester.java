@@ -198,15 +198,15 @@ class LogCollector {
                     .collect(Collectors.groupingBy(
                             Log::severity,
                             TreeMap::new,
-                            Collectors.collectingAndThen(Collectors.toList(), List::size)
-                    ));
+                            Collectors.collectingAndThen(Collectors.counting(),
+                                    Long::intValue)));
         } else {
             result = logsByService.get(service).stream()
                     .collect(Collectors.groupingBy(
                             Log::severity,
                             TreeMap::new,
-                            Collectors.collectingAndThen(Collectors.toList(), List::size)
-                    ));
+                            Collectors.collectingAndThen(Collectors.counting(),
+                                    Long::intValue)));
         }
         return result;
     }
