@@ -1,4 +1,4 @@
-package Napredno.K2023_2024.K1_2023_2024.FilterAndSort;
+package Napredno.K_2023_2024.K1_2023_2024.FilterAndSort;
 
 import java.util.*;
 import java.util.function.Predicate;

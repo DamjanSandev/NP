@@ -1,4 +1,4 @@
-package Napredno.K2023_2024.K1_2023_2024.SkopskiMaraton;
+package Napredno.K_2023_2024.K1_2023_2024.SkopskiMaraton;
 
 import java.io.*;
 import java.time.Duration;

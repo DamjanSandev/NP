@@ -1,4 +1,4 @@
-package Napredno.K2023_2024.K1_2023_2024.StreamingPlatform;
+package Napredno.K_2023_2024.K1_2023_2024.StreamingPlatform;
 
 import java.io.OutputStream;
 import java.io.PrintWriter;
